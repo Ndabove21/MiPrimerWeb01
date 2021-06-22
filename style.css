@@ -15,7 +15,8 @@ color: #fff;
 background-color: #212529;
 border-color: #212529;
 }
-.bg-light.py-5 border-bottom{
+.bg-light{
+    padding: 50px 50px 100px 50px;
 background-color: white;
 }
 
@@ -28,12 +29,9 @@ border-color: white;
 .cotiza {
 background-color: #212529;
 }
-footer{
-color:#212529 ;
-}
 
 .pasion{
-    padding: auto;
+    padding: 100px 50px 100px 50px;
     background-color: white;
     display: flex;
 }
@@ -45,11 +43,11 @@ color:#212529 ;
     width: 100%;
        transition: .1s;
 }
-footer a {
-    color: #999b9d;
-    line-height: 2em;
-    transition: .2s;
+footer{
+    padding: 50px 10px 20px 10px;
+    background-color: #212529
 }
+
 
 .a {
     font-family: Rubik,sans-serif;
@@ -70,3 +68,16 @@ footer a {
     width: 4rem;
     font-size: 2rem;
 }
+.col-md-5, .col-md-7 {
+    justify-content: center;
+    padding: 30px;
+    flex: auto;
+}
+.footletras{
+color: white;
+}
+.icon{
+    color: white;
+
+    }
+
